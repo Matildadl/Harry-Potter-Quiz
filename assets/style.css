@@ -14,3 +14,8 @@ body {
     align-items:center;
 
 }
+ body{
+    background-color: midnightblue;
+    background-image: url("../assets\images\harrypotterroof.webp")no-repeat center center/cover;
+    
+}
