@@ -22,12 +22,51 @@ body {
 
 #question {
     font-size: 30px;
-    color: white;
+    color: midnightblue;
     border: 5px solid grey;
     padding: 10px;
     margin: 10px;
 
 }
+ .container{
+    width:800px;
+    max-width: 80%;
+    background-color: grey;
+    border-radius:5px;
+    padding 5px;
+    box-shadow: 0 0 10px 2px;
+
+ }
  
-    
+ .btn-grid {
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    gap:10px;
+    margin: 20px;
+ }
+
+ .btn {
+    background-color: yellow;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 10px;    
+
+ }
+
+ .start-btn, .next-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+ }
+
+ .controls{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .hide {
+    display: none;
+
+ }
     
