@@ -12,10 +12,22 @@ body {
     height:100vh;
     justify-content:center;
     align-items:center;
+    background-color:midnightblue;
+    background-image: url('images/harry\ potter\ roof.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
 }
- body{
-    background-color: midnightblue;
-    background-image: url("../assets\images\harrypotterroof.webp")no-repeat center center/cover;
-    
+
+#question {
+    font-size: 30px;
+    color: white;
+    border: 5px solid grey;
+    padding: 10px;
+    margin: 10px;
+
 }
+ 
+    
+    
