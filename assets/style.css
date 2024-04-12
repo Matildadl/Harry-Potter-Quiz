@@ -28,6 +28,13 @@ body {
     margin: 10px;
 
 }
+
+.question-container {
+   transition: opacity 0.5s ease-in-out;
+}
+#question {
+   transition: opacity 1s ease-in-out;
+}
  .container{
     width:800px;
     max-width: 80%;
@@ -46,7 +53,7 @@ body {
  }
 
  .btn {
-    background-color: yellow;
+    background-color: rgb(149, 14, 234);
     border: 2px solid;
     border-radius: 5px;
     padding: 5px 10px;    
@@ -57,6 +64,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
+    margin: 5px;
  }
 
  .controls{
@@ -69,10 +77,20 @@ body {
     display: none;
 
  }
+   
+ .result-button{
+   background-color: rgb(234, 14, 161);
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    margin: 5px;
     
+
+ }
 .correct {
-   background-color: green
+   background-color: rgb(80, 235, 80)
 }
 .wrong {
-   background-color: red
+   background-color: rgb(255, 0, 0)
 }
+
