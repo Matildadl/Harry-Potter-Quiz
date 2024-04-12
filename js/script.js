@@ -3,8 +3,9 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const resultElement = document.getElementById('result')
 
-let shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex, correctAnswers, totalQuestions
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -16,6 +17,8 @@ function startGame() {
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
+  correctAnswers = 0
+  totalQuestions = questions.length
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
@@ -50,6 +53,9 @@ function resetState() {
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
+  if (correct) {
+    correctAnswers++
+  }
   setStatusClass(document.body, correct)
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
@@ -59,6 +65,7 @@ function selectAnswer(e) {
   } else {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
+    resultElement.innerText = `Number of correct Answer: ${correctAnswers} / ${totalQuestions}`
   }
 }
 
@@ -83,7 +90,7 @@ const questions = [
       { text: 'The most famous Wizard on earth', correct: true },
       { text: 'Voldemort', correct: false },
       { text: 'A dog', correct: false },
-      { text: 'A cat'}
+      { text: 'A cat', correct: false}
     ]
   },
   {
