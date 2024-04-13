@@ -4,3 +4,5 @@ https://lostbetweentheletters.wordpress.com/2010/08/03/where-dwell-the-brave-at-
 
 https://harrypotter.fandom.com/sv/wiki/Gryffindor
 
+
+color-scheme: https://mycolor.space/?hex=%23191970&sub=1

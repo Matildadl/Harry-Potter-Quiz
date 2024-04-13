@@ -41,7 +41,7 @@
    /* Images*/
 
    img {
-      max-width: 15%;
+      max-width: 40%;
       display: flex;
       justify-content: space-between;
    }
@@ -50,6 +50,7 @@
       display: flex;
       margin-left: 10px;
       margin-right: 10px;
+      flex-direction: column;
    }
    /* question-box background*/
     .container{
@@ -113,3 +114,13 @@
       background-color: #A02524;
    }
    
+   /* media queries*/
+   @media screen (max-width: 414px) {
+
+      .img1 {
+         flex-direction: row;
+      }
+      .img {
+         flex-direction: row;
+      }
+   }
