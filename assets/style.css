@@ -37,6 +37,20 @@
    #answer-buttons {
       transition: opacity 3s ease-in-out;
    }
+
+   /* Images*/
+
+   img {
+      max-width: 15%;
+      display: flex;
+      justify-content: space-between;
+   }
+   .img1 {
+      align-items: center;
+      display: flex;
+      margin-left: 10px;
+      margin-right: 10px;
+   }
    /* question-box background*/
     .container{
        width:600px;
