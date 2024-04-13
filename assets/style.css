@@ -12,7 +12,7 @@ body {
     height:100vh;
     justify-content:center;
     align-items:center;
-    background-color:midnightblue;
+    background-color:#191970;
     background-image: url('images/harry\ potter\ roof.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@ body {
 /* question-box theme*/
 #question {
     font-size: 30px;
-    color: rgb(102, 102, 211);
+    color: #191970;
     border: 5px solid rgb(42, 39, 39);
     padding: 10px;
     margin: 10px;
@@ -40,7 +40,7 @@ body {
  .container{
     width:800px;
     max-width: 80%;
-    background-color: rgb(19, 13, 13);
+    background-color: #006EB5;
     border-radius:5px;
     padding 5px;
     box-shadow: 0 0 10px 2px;
@@ -55,7 +55,7 @@ body {
  }
 
  .btn {
-    background-color: rgb(149, 14, 234);
+    background-color: #00469B;
     border: 2px solid;
     border-radius: 5px;
     padding: 5px 10px;    
@@ -81,7 +81,7 @@ body {
  }
    /* result-button*/
  .result-button{
-   background-color: rgb(234, 14, 161);
+   background-color: #00B9C0;
     border: 2px solid;
     border-radius: 5px;
     padding: 5px 10px; 
@@ -91,9 +91,9 @@ body {
  }
  /* color for correct and wrong*/
 .correct {
-   background-color: rgb(80, 235, 80)
+   background-color: #00C89F;
 }
 .wrong {
-   background-color: rgb(255, 0, 0)
+   background-color: #A02524;
 }
 
