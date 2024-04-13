@@ -3,7 +3,7 @@
 box-sizing: border-box;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
+/* body and background theme */
 body {
     padding: 0;
     margin: 0;
@@ -19,32 +19,34 @@ body {
     background-position: center center;
 
 }
-
+/* question-box theme*/
 #question {
     font-size: 30px;
-    color: midnightblue;
-    border: 5px solid grey;
+    color: rgb(102, 102, 211);
+    border: 5px solid rgb(42, 39, 39);
     padding: 10px;
     margin: 10px;
 
 }
-
+/* transition to question*/
 .question-container {
    transition: opacity 4s ease-in-out;
 }
+
 #answer-buttons {
    transition: opacity 3s ease-in-out;
 }
+/* question-box background*/
  .container{
     width:800px;
     max-width: 80%;
-    background-color: grey;
+    background-color: rgb(19, 13, 13);
     border-radius:5px;
     padding 5px;
     box-shadow: 0 0 10px 2px;
 
  }
- 
+ /* buttons*/
  .btn-grid {
     display:grid;
     grid-template-columns: repeat(2,auto);
@@ -72,12 +74,12 @@ body {
     justify-content: center;
     align-items: center;
  }
-
+ /* hide question before*/
  .hide {
     display: none;
 
  }
-   
+   /* result-button*/
  .result-button{
    background-color: rgb(234, 14, 161);
     border: 2px solid;
@@ -87,6 +89,7 @@ body {
     
 
  }
+ /* color for correct and wrong*/
 .correct {
    background-color: rgb(80, 235, 80)
 }

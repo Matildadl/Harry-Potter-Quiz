@@ -123,5 +123,24 @@ const questions = [{
             { text: 'An Owl', correct: true },
             { text: 'A Rabbit', correct: false }
         ]
+    },
+
+    {
+        question: 'How many siblings does Harry Potter have?',
+        answers: [
+            { text: '0', correct: true },
+            { text: '2', correct: false }
+            
+        ]
+    },
+
+    {
+        question: 'What were Harrys parents name?',
+        answers: [
+            { text: 'Lily & James', correct: true },
+            { text: 'Gretchen & Peter', correct: false },
+            { text: 'Voldemort & Sirius', correct: false },
+            { text: 'Dumbledore & Snape', correct: false }
+        ]
     }
 ];
