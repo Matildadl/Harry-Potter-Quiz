@@ -20,6 +20,8 @@ function startGame() {
     correctAnswers = 0;
     totalQuestions = questions.length;
     questionContainerElement.classList.remove('hide');
+    resultElement.innerText = '';
+    resetState();
     setNextQuestion();
 }
 
@@ -71,6 +73,8 @@ function selectAnswer(e) {
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
         resultElement.innerText = `Number of correct Answer: ${correctAnswers} / ${totalQuestions}`;
+        
+        
     }
 }
 
@@ -88,7 +92,8 @@ function clearStatusClass(element) {
     element.classList.remove('wrong');
 }
 
-const questions = [{
+const questions = [
+    {
         question: 'Who is Harry Potter?',
         answers: [
             { text: 'The most famous Wizard on earth', correct: true },
@@ -124,16 +129,13 @@ const questions = [{
             { text: 'A Rabbit', correct: false }
         ]
     },
-
     {
         question: 'How many siblings does Harry Potter have?',
         answers: [
             { text: '0', correct: true },
             { text: '2', correct: false }
-            
         ]
     },
-
     {
         question: 'What were Harrys parents name?',
         answers: [

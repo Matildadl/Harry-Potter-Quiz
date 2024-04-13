@@ -1,99 +1,101 @@
 *, *::before, ::after{
 
-box-sizing: border-box;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-/* body and background theme */
-body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    width: 100vw;
-    height:100vh;
-    justify-content:center;
-    align-items:center;
-    background-color:#191970;
-    background-image: url('images/harry\ potter\ roof.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
-}
-/* question-box theme*/
-#question {
-    font-size: 30px;
-    color: #191970;
-    border: 5px solid rgb(42, 39, 39);
-    padding: 10px;
-    margin: 10px;
-
-}
-/* transition to question*/
-.question-container {
-   transition: opacity 4s ease-in-out;
-}
-
-#answer-buttons {
-   transition: opacity 3s ease-in-out;
-}
-/* question-box background*/
- .container{
-    width:800px;
-    max-width: 80%;
-    background-color: #006EB5;
-    border-radius:5px;
-    padding 5px;
-    box-shadow: 0 0 10px 2px;
-
- }
- /* buttons*/
- .btn-grid {
-    display:grid;
-    grid-template-columns: repeat(2,auto);
-    gap:10px;
-    margin: 20px;
- }
-
- .btn {
-    background-color: #00469B;
-    border: 2px solid;
-    border-radius: 5px;
-    padding: 5px 10px;    
-
- }
-
- .start-btn, .next-btn{
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    margin: 5px;
- }
-
- .controls{
-    display:flex;
-    justify-content: center;
-    align-items: center;
- }
- /* hide question before*/
- .hide {
-    display: none;
-
- }
-   /* result-button*/
- .result-button{
-   background-color: #00B9C0;
-    border: 2px solid;
-    border-radius: 5px;
-    padding: 5px 10px; 
-    margin: 5px;
-    
-
- }
- /* color for correct and wrong*/
-.correct {
-   background-color: #00C89F;
-}
-.wrong {
-   background-color: #A02524;
-}
-
+   box-sizing: border-box;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   }
+   
+   /* body and background theme */
+   body {
+       padding: 0;
+       margin: 0;
+       display: flex;
+       width: 100vw;
+       height:100vh;
+       justify-content:center;
+       align-items:center;
+       background-color:#191970;
+       background-image: url('images/harry\ potter\ roof.webp');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+   
+   }
+   /* question-box theme*/
+   #question {
+       font-size: 30px;
+       color: #191970;
+       border: 5px solid rgb(42, 39, 39);
+       padding: 10px;
+       margin: 10px;
+   
+   }
+   /* transition to question*/
+   .question-container {
+      transition: opacity 4s ease-in-out;
+   }
+   
+   #answer-buttons {
+      transition: opacity 3s ease-in-out;
+   }
+   /* question-box background*/
+    .container{
+       width:600px;
+       max-width: 70%;
+       background-color: #006EB5;
+       border-radius:5px;
+       padding 5px;
+       box-shadow: 0 0 10px 2px;
+   
+    }
+    /* buttons*/
+    .btn-grid {
+       display:grid;
+       grid-template-columns: repeat(2,auto);
+       gap:10px;
+       margin: 20px;
+    }
+   
+    .btn {
+       background-color: #00469B;
+       border: 2px solid;
+       border-radius: 5px;
+       padding: 5px 10px;    
+   
+    }
+   
+    .start-btn, .next-btn{
+       font-size: 1.5rem;
+       font-weight: bold;
+       padding: 10px 20px;
+       margin: 5px;
+    }
+   
+    .controls{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+    }
+   
+    /* hide question before*/
+    .hide {
+       display: none;
+   
+    }
+      /* result-button*/
+    .result-button{
+      background-color: #00B9C0;
+       border: 2px solid;
+       border-radius: 5px;
+       padding: 5px 10px; 
+       margin: 5px;
+       
+   
+    }
+    /* color for correct and wrong*/
+   .correct {
+      background-color: #00C89F;
+   }
+   .wrong {
+      background-color: #A02524;
+   }
+   
