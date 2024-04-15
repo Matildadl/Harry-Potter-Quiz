@@ -1,6 +1,7 @@
 *, *::before, ::after{
 
    box-sizing: border-box;
+   color: white;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
    }
    
@@ -18,6 +19,7 @@
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center center;
+       color: white;
    
    }
    /* question-box theme*/
@@ -43,8 +45,8 @@
    
 
    .img1 {
-      height: 50px;
-      width: 50px;
+      height: 60px;
+      width: 60px;
       align-items: center;
       display: flex;
       margin-left: 10px;
@@ -53,8 +55,8 @@
 
    }
     .img2 {
-      height: 50px;
-      width: 50px;
+      height: 60px;
+      width: 60px;
       align-items: center;
       display: flex;
       margin-left: 10px;
@@ -123,7 +125,7 @@
       background-color: #A02524;
    }
    
-   /* media queries*/
+   /* media queries for phones*/
    @media (max-width: 414px) {
 
       .img1 {
@@ -148,6 +150,7 @@
          max-width: 100%;
       }
    }
+   /* media queries for tablets*/
    @media (max-width: 768px) {
 
       .img1 {
