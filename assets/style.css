@@ -44,7 +44,7 @@
 
    .img1 {
       height: 50px;
-      weight: 50px;
+      width: 50px;
       align-items: center;
       display: flex;
       margin-left: 10px;
@@ -54,7 +54,7 @@
    }
     .img2 {
       height: 50px;
-      weight: 50px;
+      width: 50px;
       align-items: center;
       display: flex;
       margin-left: 10px;
@@ -128,18 +128,44 @@
 
       .img1 {
          position: absolute;
-         top:150px;
-         left: 150px;
+         top:140px;
+         left: 140px;
          height: 60px;
-         weight: 60px;
+         width: 60px;
+         margin: 10px;
       }
 
       .img2 {
          position: absolute;
-         bottom: 150px;
-         right: 150px;
+         bottom: 140px;
+         right: 140px;
          height: 60px;
-         weight: 60px;
+         width: 60px;
+         margin: 10px;
+      }
+
+      .container {
+         max-width: 100%;
+      }
+   }
+   @media (max-width: 768px) {
+
+      .img1 {
+         position: absolute;
+         top:20px;
+         left: 20px;
+         height: 80px;
+         width: 80px;
+         margin: 10px;
+      }
+
+      .img2 {
+         position: absolute;
+         bottom: 20px;
+         right: 20px;
+         height: 80px;
+         width: 80px;
+         margin: 10px;
       }
 
       .container {
