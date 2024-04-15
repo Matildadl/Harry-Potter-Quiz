@@ -45,8 +45,8 @@
    
 
    .img1 {
-      height: 60px;
-      width: 60px;
+      height: 150px;
+      width: 150px;
       align-items: center;
       display: flex;
       margin-left: 10px;
@@ -55,8 +55,8 @@
 
    }
     .img2 {
-      height: 60px;
-      width: 60px;
+      height: 150px;
+      width: 150px;
       align-items: center;
       display: flex;
       margin-left: 10px;
@@ -168,6 +168,30 @@
          right: 20px;
          height: 80px;
          width: 80px;
+         margin: 10px;
+      }
+
+      .container {
+         max-width: 100%;
+      }
+   }
+   @media (max-width: 1760) {
+
+      .img1 {
+         
+         top:20px;
+         left: 20px;
+         height: 150px;
+         width: 150px;
+         margin: 10px;
+      }
+
+      .img2 {
+         
+         bottom: 20px;
+         right: 20px;
+         height: 150px;
+         width: 150px;
          margin: 10px;
       }
 
