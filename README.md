@@ -18,6 +18,10 @@ To play the quiz, simply read each question carefully and select the answer you 
 
 # UX
 
+* Friend A : resposive and simple game, I got 6/6 on the test! fun!
+* Friend B : Easy to navigate, I restarted the game a couple of times!
+
+
 <hr>
 
 # Features
@@ -25,17 +29,17 @@ Multiple-choice questions for easy participation.
 Diverse range of questions to challenge your knowledge.
 Engaging and immersive experience for Harry Potter fans of all levels.
 
-* responsive design
-* interactive quiz
-* results and summary
-* recovery function
+* Responsive Design
+* Interactive Quiz
+* Results and Summary
+* Recovery Function
 
 <hr>
 
 # Future Features
 
 * Timer
-* music
+* Music
 
 <hr>
 
@@ -46,7 +50,11 @@ Press the Start-Button and play!
 <hr>
 
 # Contributing
-If you're a fellow Potterhead and would like to contribute to this quiz by adding more questions or improving existing ones, feel free to fork this repository and submit a pull request. Your contributions are highly appreciated!
+I asked a couple of people for their opinion for my quiz, before it was ready to save and submit. and they gave me these suggesitions for improvement.
+
+* Text-color was to dark, I changed that to White on all buttons.
+* Result-button was unnecessary before the game ended, so I changed that so it appears in the end instead.
+
 
 <hr>
 
@@ -91,7 +99,21 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 <img src="assets\images\Lighthouse.png">
 
+<hr>
 
+# Tools and Language
+
+* HTML
+* CSS
+* JavaScript
+
+* Balsamiq: I Used this for create wireframes.
+* VsCode: Utilized for writing and editing HTML, CSS and JavaScript.
+* Youtube: for inspiration and help with the Code.
+* HTML-Validator: Used for validating HTML-code.
+* CSS-Validator: Utilizied for validating CSS-code.
+* Jshint: Applied for validating JavaScript-code and to see if there were any bugs or unused function.
+* Am I responsive: Employed for testing and ensuring responsiveness.
 
 <hr>
 
