@@ -60,6 +60,9 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 ## Manual:
 
+| Feature              | Description                 | Steps                             | Outcome                      |
+| --- | --- | ---| --- |
+
 ## Validators:
 
 ### CSS:
