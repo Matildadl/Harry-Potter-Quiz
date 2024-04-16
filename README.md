@@ -41,7 +41,7 @@ Engaging and immersive experience for Harry Potter fans of all levels.
 
 # Getting Started
 Press the Start-Button and play!
-<link href="https://matildadl.github.io/Harry-Potter-Quiz/">
+[ The Quiz](https://matildadl.github.io/Harry-Potter-Quiz/)
 
 <hr>
 
