@@ -40,7 +40,8 @@ Engaging and immersive experience for Harry Potter fans of all levels.
 <hr>
 
 # Getting Started
-To get started, simply clone this repository to your local machine and open the index.html file in your web browser. Then, let the magic begin!
+Press the Start-Button and play!
+<link href="https://matildadl.github.io/Harry-Potter-Quiz/">
 
 <hr>
 
