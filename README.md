@@ -50,9 +50,17 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 # Tests:
 
-## Manual
+## Manual:
 
-## Validators
+## Validators:
+
+### CSS:
+### HTML:
+### JavaScript:
+
+## Lighthouse:
+
+
 
 <hr>
 
