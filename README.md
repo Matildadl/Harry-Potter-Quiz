@@ -85,3 +85,8 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 * This quiz was created with love by [Matilda Danås-Leek]. Special thanks to J.K. Rowling for bringing the magical world of Harry Potter to life.
 * Thanks to Web Dev Simplified and your great video about how to build a Quiz with JavaScript, that I got my inspiration from. Here is the Link : https://www.youtube.com/watch?v=riDzcEQbX6k
 
+# Thank you:
+* Slack Community, without these guys I would be able to finished this.
+* My Mentor for giving me great tips.
+* J.K Rowling for writing these fantasic books about Harry Potter ( Yes I am a big fan!)
+* My Family.
