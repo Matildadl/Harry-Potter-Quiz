@@ -1,11 +1,11 @@
-link to image: https://harrypotter.fandom.com/sv/wiki/Stora_Salen
-https://magiciansministry.wixsite.com/harrypotter/elevhem
-https://lostbetweentheletters.wordpress.com/2010/08/03/where-dwell-the-brave-at-heart-houses-at-hogwarts/#jp-carousel-2051
+link to image: 
+
+
 
 https://harrypotter.fandom.com/sv/wiki/Gryffindor
 
 
-color-scheme: https://mycolor.space/?hex=%23191970&sub=1
+color-scheme: 
 
 # Harry Potter Quiz
 
@@ -54,6 +54,13 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 ## Validators
 
+<hr>
+
+# Links to images and inspiration
+
+* ### color-scheme: https://mycolor.space/?hex=%23191970&sub=1
+* ### img: background, https://static.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20180604132837&path-prefix=sv , https://harrypotter.fandom.com/sv/wiki/Stora_Salen?file=B1-background.jpg
+* ### img: side-img,  https://magiciansministry.wixsite.com/harrypotter/elevhem 
 <hr>
 
 # Credits
