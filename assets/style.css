@@ -120,6 +120,18 @@
        
     }
 
+    #high-score-container {
+      position: fixed;
+      align-items: center;
+      top: 10px;
+      right: 10px;
+      background-color: #006EB5;
+      padding: 3px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 5px;
+      font-size: 6px;
+  }
+
     .hide {
       display: none;
     }
@@ -180,6 +192,7 @@
       .container {
          max-width: 100%;
       }
+      
    }
    @media (max-width: 1760) {
 

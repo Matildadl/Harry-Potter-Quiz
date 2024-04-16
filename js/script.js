@@ -6,8 +6,10 @@ const answerButtonsElement = document.getElementById('answer-buttons');
 const resultButton = document.querySelector('.result-button');
 const resultElement = document.getElementById('result');
 const summaryElement = document.getElementById('summary');
+const highScoreElement = document.getElementById('high-score');
 
 let shuffledQuestions, currentQuestionIndex, correctAnswers, totalQuestions;
+let highScore = localStorage.getItem('highScore') || 0;
 
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
@@ -99,6 +101,7 @@ function showResults() {
     startButton.classList.remove('hide');
     resultElement.innerText = `Number of correct answers: ${correctAnswers} / ${totalQuestions}`;
     resultElement.classList.remove('hide');
+    updateHighScore(correctAnswers);
 }
 
 function updateSummary() {
@@ -106,3 +109,32 @@ function updateSummary() {
     resultElement.classList.remove('hide');
 }
 
+function showHighScoreContainer() {
+    const highScoreContainer = document.getElementById('high-score-container');
+    highScoreContainer.classList.remove('hide');
+}
+
+function hideHighScoreContainer() {
+    const highScoreContainer = document.getElementById('high-score-container');
+    highScoreContainer.classList.add('hide');
+}
+function updateHighScore(score) {
+    const currentHighScore = parseInt(localStorage.getItem('highScore'), 10) || 0;
+    if (score > currentHighScore) {
+        localStorage.setItem('highScore', score);
+        displayHighScore();
+    }
+}
+
+function displayHighScore() {
+    const highScore = localStorage.getItem('highScore');
+    document.getElementById('high-score').innerText = `High Score: ${highScore}`;
+    showHighScoreContainer(); // Visa highscore-rutan
+}
+
+
+function endQuiz() {
+    const score = calculateScore(); 
+    updateHighScore(score);
+    displayHighScore();
+}

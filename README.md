@@ -27,7 +27,7 @@ To play the quiz, simply read each question carefully and select the answer you 
 
 # My Friends experience
 
-* Friend A : resposive and simple game, I got 6/6 on the test! fun!
+* Friend A : responsive and simple game, I got 6/6 on the test! fun!
 * Friend B : Easy to navigate, I restarted the game a couple of times!
 
 
