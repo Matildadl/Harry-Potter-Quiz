@@ -25,6 +25,18 @@ Multiple-choice questions for easy participation.
 Diverse range of questions to challenge your knowledge.
 Engaging and immersive experience for Harry Potter fans of all levels.
 
+* responsive design
+* interactive quiz
+* results and summary
+* recovery function
+
+<hr>
+
+# Future Features
+
+* Timer
+* music
+
 <hr>
 
 # Getting Started
