@@ -132,6 +132,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 * ### color-scheme: [color-scheme](https://mycolor.space/?hex=%23191970&sub=1)
 * ### img: background, [Background](https://static.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20180604132837&path-prefix=sv) , [Background](https://harrypotter.fandom.com/sv/wiki/Stora_Salen?file=B1-background.jpg)
 * ### img: [side-img](https://magiciansministry.wixsite.com/harrypotter/elevhem)
+* ### favicon: [favicon](https://favicon.io/emoji-favicons/black-heart)
 <hr>
 
 # Credits
