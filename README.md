@@ -18,6 +18,15 @@ To play the quiz, simply read each question carefully and select the answer you 
 
 # UX
 
+* Responsivness to different screens.
+* a color Scheme that goes hand in hand and easy to look at.
+* simple design.
+* easy to navigate.
+
+<hr>
+
+# My Friends experience
+
 * Friend A : resposive and simple game, I got 6/6 on the test! fun!
 * Friend B : Easy to navigate, I restarted the game a couple of times!
 
@@ -40,6 +49,7 @@ Engaging and immersive experience for Harry Potter fans of all levels.
 
 * Timer
 * Music
+* Different degrees of difficulty
 
 <hr>
 
@@ -129,7 +139,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 * Thanks to Web Dev Simplified and your great video about how to build a Quiz with JavaScript, that I got my inspiration from. Here is the Link : [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
 
 # Thank you:
-* Slack Community, without these guys I would be able to finished this.
+* Slack Community, without these guys I wouldn't be able to finished this.
 * My Mentor for giving me great tips.
 * J.K Rowling for writing these fantasic books about Harry Potter ( Yes I am a big fan!)
 * My Family.
