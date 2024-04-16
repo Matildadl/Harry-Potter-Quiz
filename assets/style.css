@@ -121,18 +121,29 @@
     }
 
     #high-score-container {
-      position: fixed;
-      align-items: center;
-      top: 40px;
-      right: 30px;
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      z-index: 10;     
+      font-size: ;
       background-color: #006EB5;
-      padding: 10px;
       gap:20px;
       border-radius: 5px;
       box-shadow: 0 0 10px 5px;
       font-size: 6px;
+      height: 80px;
+      width: 80px
   }
+   #HS {
+      font-size: 15px;
+      align-items: center;
+      margin: 5px;
+   }
 
+   #high-score {
+      font-size: 10px;
+      margin: 5px;
+   }
     .hide {
       display: none;
     }
