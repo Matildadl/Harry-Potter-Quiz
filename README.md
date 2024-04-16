@@ -37,13 +37,22 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 <hr>
 
+
 # wireframes
+
+<hr>
+
+# Am I Responsive:
+
+<img src="assets\images\Am_I_responsive.png">
 
 <hr>
 
 # Layout:
 
 <img src="assets\images\start_page.png">
+<img src="assets\images\question_area.png">
+<img src="assets\images\right_wrong_answer.png">
 
 <hr>
 
