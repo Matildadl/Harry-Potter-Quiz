@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Harry Potter. Wizard. England. Hogwartz. Voldemort">
-    <meta name="keywords"
-        content="Harry Potter. Wizards. England. Train. Owl. Hogwartz">
+    <meta name="description" content="Harry Potter. Wizard. England. Hogwartz. Voldemort">
+    <meta name="keywords" content="Harry Potter. Wizards. England. Train. Owl. Hogwartz">
     
     <link rel="stylesheet" href="assets/style.css">
-    <script  defer src="js/script.js"></script>
+    <script defer src="js/script.js"></script>
     <script src="js/question.js"></script>
     <title>Harry Potter-quiz</title>
 </head>
@@ -19,7 +17,6 @@
         <img src="assets\images\harry_potter_studenthomes.webp" alt="house-crest" class="img1">
         </div>
     </div>
-<!--question-area-->
     <div class="container">
        <div id="question-container" class="hide">
             <div id="question">Question</div>
@@ -31,21 +28,14 @@
                 <button class="btn">Answer 4</button>
             </div>
         </div>
-        <!-- start and next-area-->    
-            <div class="controls">
-                <button id="start-btn" class="start-btn btn">Start</button>
-                <button id="next-btn" class="next-btn btn hide">Next</button>
-            </div>
-            <button onclick="showResults()" class="result-button">Results</button>
-
-            <div id="result"></div>
-        
-
-
-            
-        
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        <button onclick="showResults()" class="result-button hide">Results</button>
+        <div id="result" class="hide"></div>
+        <div id="summary" class="hide"></div>
     </div>
-</div>
     <div class="img">
         <div id="img2">
         <img src="assets\images\harry_potter_studenthomes.webp" alt="house-crest" class="img2">

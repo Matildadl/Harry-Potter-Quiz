@@ -62,7 +62,10 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 | Feature              | Description                 | Steps                             | Outcome                      |
 | --- | --- | ---| --- |
-
+| Start-button | Start the quiz | Click on Start-Button | The Quiz is started |
+| Answer-buttons | Right answer | Click on Right Answer | The Button is colored green |
+| Answer-buttons | Wrong answer | Click on Wrong answer | the button is colored red |
+| Next-button | Go to next question | Click on Next-button | Next question comes directly |
 ## Validators:
 
 ### CSS:

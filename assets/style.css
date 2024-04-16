@@ -122,7 +122,10 @@
        padding: 5px 10px; 
        margin: 5px;
        
-   
+    }
+
+    .hide {
+      display: none;
     }
     /* color for correct and wrong*/
    .correct {

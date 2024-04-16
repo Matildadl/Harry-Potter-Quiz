@@ -3,25 +3,29 @@ const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
+const resultButton = document.querySelector('.result-button');
 const resultElement = document.getElementById('result');
+const summaryElement = document.getElementById('summary');
 
 let shuffledQuestions, currentQuestionIndex, correctAnswers, totalQuestions;
-
 
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     setNextQuestion();
 });
+resultButton.addEventListener('click', showResults);
 
 function startGame() {
     startButton.classList.add('hide');
+    resultButton.classList.add('hide');
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     correctAnswers = 0;
     totalQuestions = questions.length;
     questionContainerElement.classList.remove('hide');
     resultElement.innerText = '';
+    summaryElement.innerText = '';
     resetState();
     setNextQuestion();
 }
@@ -71,12 +75,9 @@ function selectAnswer(e) {
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide');
     } else {
-        startButton.innerText = 'Restart';
-        startButton.classList.remove('hide');
-        resultElement.innerText = `Number of correct Answer: ${correctAnswers} / ${totalQuestions}`;
-        
-        
+        resultButton.classList.remove('hide');
     }
+    updateSummary();
 }
 
 function setStatusClass(element, correct) {
@@ -91,5 +92,17 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
+}
+
+function showResults() {
+    startButton.innerText = 'Restart';
+    startButton.classList.remove('hide');
+    resultElement.innerText = `Number of correct answers: ${correctAnswers} / ${totalQuestions}`;
+    resultElement.classList.remove('hide');
+}
+
+function updateSummary() {
+    summaryElement.innerText = `Number of correct answers: ${correctAnswers} / ${totalQuestions}`;
+    resultElement.classList.remove('hide');
 }
 
