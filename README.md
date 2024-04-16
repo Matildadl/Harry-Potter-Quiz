@@ -97,14 +97,14 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 # Links to images and inspiration
 
-* ### color-scheme: https://mycolor.space/?hex=%23191970&sub=1
-* ### img: background, https://static.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20180604132837&path-prefix=sv , https://harrypotter.fandom.com/sv/wiki/Stora_Salen?file=B1-background.jpg
-* ### img: side-img,  https://magiciansministry.wixsite.com/harrypotter/elevhem 
+* ### color-scheme: [color-scheme](https://mycolor.space/?hex=%23191970&sub=1)
+* ### img: background, [Background](https://static.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20180604132837&path-prefix=sv) , [Background](https://harrypotter.fandom.com/sv/wiki/Stora_Salen?file=B1-background.jpg)
+* ### img: [side-img](https://magiciansministry.wixsite.com/harrypotter/elevhem)
 <hr>
 
 # Credits
 * This quiz was created with love by [Matilda Danås-Leek]. Special thanks to J.K. Rowling for bringing the magical world of Harry Potter to life.
-* Thanks to Web Dev Simplified and your great video about how to build a Quiz with JavaScript, that I got my inspiration from. Here is the Link : https://www.youtube.com/watch?v=riDzcEQbX6k
+* Thanks to Web Dev Simplified and your great video about how to build a Quiz with JavaScript, that I got my inspiration from. Here is the Link : [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
 
 # Thank you:
 * Slack Community, without these guys I would be able to finished this.
