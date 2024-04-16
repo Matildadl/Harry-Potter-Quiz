@@ -66,6 +66,8 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 | Answer-buttons | Right answer | Click on Right Answer | The Button is colored green |
 | Answer-buttons | Wrong answer | Click on Wrong answer | the button is colored red |
 | Next-button | Go to next question | Click on Next-button | Next question comes directly |
+| Result-Button | Result | Click on Result-button | Your Result will then appear |
+| Restart-button | Restart the game | Click on Restart-button | The game will start again |
 ## Validators:
 
 ### CSS:
