@@ -68,6 +68,8 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 
 ## Lighthouse:
 
+<img src="assets\images\Lighthouse.png">
+
 
 
 <hr>
