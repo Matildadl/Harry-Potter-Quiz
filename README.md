@@ -1,11 +1,4 @@
-link to image: 
 
-
-
-https://harrypotter.fandom.com/sv/wiki/Gryffindor
-
-
-color-scheme: 
 
 # Harry Potter Quiz
 
@@ -45,6 +38,12 @@ If you're a fellow Potterhead and would like to contribute to this quiz by addin
 <hr>
 
 # wireframes
+
+<hr>
+
+# Layout:
+
+<img src="assets\images\start_page.png">
 
 <hr>
 
