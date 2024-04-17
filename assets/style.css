@@ -160,7 +160,7 @@
    
 
    /* media queries for phones*/
-   @media screen and (min-width: 375px) {
+   @media screen and (min-width: 280px) {
 
       .img1 {
          position: absolute;
@@ -173,21 +173,21 @@
 
       .img2 {
          position: absolute;
-         bottom: 60px;
-         right: 150px;
+         bottom: 80px;
+         right: 10px;
          height: 60px;
          width: 60px;
          margin: 10px;
       }
 
       .container {
-         max-width: 80%;
+         max-width: 70%;
       }
       #high-score-container {
 
          position: absolute;
          top: 5px;
-         right: 115px;
+         right: 100px;
          height: 100px;
          width: 110px;
          margin: 10px;
@@ -204,8 +204,8 @@
 
       .img1 {
          position: flex;
-         top:20px;
-         left: 20px;
+         top:46%;
+         left:40px;
          height: 80px;
          width: 80px;
          margin: 10px;
@@ -213,8 +213,8 @@
 
       .img2 {
          position: flex;
-         bottom: 20px;
-         right: 20px;
+         bottom: 46%;
+         right: 40px;
          height: 80px;
          width: 80px;
          margin: 10px;
@@ -228,9 +228,9 @@
    @media screen and (min-width: 1460px) {
 
       .img1 {
-         
-         top:20px;
-         left: 20px;
+         position: absolute;
+         top:200px;
+         left: 130px;
          height: 150px;
          width: 150px;
          margin: 10px;
@@ -238,7 +238,7 @@
       }
 
       .img2 {
-         
+         position: absolute;
          bottom: 20px;
          right: 20px;
          height: 150px;
