@@ -127,6 +127,14 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 
 <hr>
 
+# Bugs
+| Bugs | Status| Description | Steps to Resolve |
+|--|--|--|--|
+| Fontawesome not display | Resolved | Fontawesome did not show up in high score-box | moved font-family CSS in to body-container in CSS |
+| High score overlap Question | Resolved | High Score overlap Question on small screens | 
+
+<hr>
+
 # Links to images and inspiration
 
 * ### color-scheme: [color-scheme](https://mycolor.space/?hex=%23191970&sub=1)
