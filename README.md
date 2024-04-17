@@ -116,7 +116,9 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 * HTML
 * CSS
 * JavaScript
+
 <hr>
+
 * Balsamiq: I Used this for create wireframes.
 * VsCode: Utilized for writing and editing HTML, CSS and JavaScript.
 * Youtube: for inspiration and help with the Code.
