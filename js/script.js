@@ -8,8 +8,10 @@ const resultElement = document.getElementById('result');
 const summaryElement = document.getElementById('summary');
 const highScoreElement = document.getElementById('high-score');
 
+
 let shuffledQuestions, currentQuestionIndex, correctAnswers, totalQuestions;
 let highScore = localStorage.getItem('highScore') || 0;
+let gamesPlayed = parseInt(localStorage.getItem('gamesPlayed')) || 0;
 
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
@@ -19,6 +21,10 @@ nextButton.addEventListener('click', () => {
 resultButton.addEventListener('click', showResults);
 
 function startGame() {
+    const gamesPlayedElement = document.getElementById('games-played');
+    gamesPlayedElement.innerText = gamesPlayed;
+    gamesPlayed++;
+    localStorage.setItem('gamesPlayed', gamesPlayed);
     startButton.classList.add('hide');
     resultButton.classList.add('hide');
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
@@ -101,9 +107,9 @@ function showResults() {
     startButton.classList.remove('hide');
     resultElement.innerText = `Number of correct answers: ${correctAnswers} / ${totalQuestions}`;
     resultElement.classList.remove('hide');
-    updateHighScore(correctAnswers);
+    endQuiz(); 
+    displayHighScore(); 
 }
-
 function updateSummary() {
     summaryElement.innerText = `Number of correct answers: ${correctAnswers} / ${totalQuestions}`;
     resultElement.classList.remove('hide');
@@ -124,12 +130,13 @@ function updateHighScore(score) {
         localStorage.setItem('highScore', score);
         displayHighScore();
     }
+    
 }
 
 function displayHighScore() {
     const highScore = localStorage.getItem('highScore');
     document.getElementById('high-score').innerText = `High Score: ${highScore}`;
-    showHighScoreContainer(); // Visa highscore-rutan
+    showHighScoreContainer(); 
 }
 
 
@@ -137,4 +144,7 @@ function endQuiz() {
     const score = calculateScore(); 
     updateHighScore(score);
     displayHighScore();
+   
 }
+
+displayHighScore();
