@@ -1,4 +1,10 @@
 
+# Am I Responsive:
+
+<img src="assets\images\Responsive_2.png">
+
+<hr>
+
 
 # Harry Potter Quiz
 
@@ -81,12 +87,6 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 <img src="assets\images\wf_1_mobile.png">
 <img src="assets\images\wf_2_mobile.png">
 <img src="assets\images\wf_3_mobile.png">
-
-<hr>
-
-# Am I Responsive:
-
-<img src="assets\images\Responsive_2.png">
 
 <hr>
 
