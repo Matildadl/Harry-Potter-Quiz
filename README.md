@@ -70,6 +70,17 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 
 
 # wireframes
+### Here is my Wireframes, I added Highscore and added results instead of the message in the end.
+
+## Full Screen
+<img src="assets\images\wf_1_full.png">
+<img src="assets\images\wf_2_full.png">
+<img src="assets\images\wf_3_full.png">
+
+## Mobile Screen
+<img src="assets\images\wf_1_mobile.png">
+<img src="assets\images\wf_2_mobile.png">
+<img src="assets\images\wf_3_mobile.png">
 
 <hr>
 
