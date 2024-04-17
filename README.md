@@ -84,6 +84,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 <img src="assets\images\start_page.png">
 <img src="assets\images\question_area.png">
 <img src="assets\images\right_wrong_answer.png">
+<img src="assets\images\high_score_result.png">
 
 <hr>
 
