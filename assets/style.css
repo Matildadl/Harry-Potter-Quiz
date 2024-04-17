@@ -132,9 +132,9 @@
       gap:20px;
       border-radius: 5px;
       box-shadow: 0 0 10px 5px;
-      font-size: 6px;
-      height: 80px;
-      width: 80px
+      font-size: 12px;
+      height: 110px;
+      width: 110px
   }
    #HS {
       font-size: 15px;
@@ -184,8 +184,8 @@
          position: absolute;
          top: 30px;
          right: 140px;
-         height: 15%;
-         width: 20%;
+         height: 110px;
+         width: 110px;
          margin: 10px;
       }
 
