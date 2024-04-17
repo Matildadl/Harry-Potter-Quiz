@@ -156,13 +156,16 @@
       background-color: #A02524;
    }
    
+
+   
+
    /* media queries for phones*/
    @media screen and (min-width: 375px) {
 
       .img1 {
          position: absolute;
-         top:140px;
-         left: 150px;
+         top:50px;
+         left: 10px;
          height: 60px;
          width: 60px;
          margin: 10px;
@@ -170,7 +173,7 @@
 
       .img2 {
          position: absolute;
-         bottom: 140px;
+         bottom: 60px;
          right: 150px;
          height: 60px;
          width: 60px;
@@ -183,9 +186,9 @@
       #high-score-container {
 
          position: absolute;
-         top: 30px;
+         top: 5px;
          right: 115px;
-         height: 110px;
+         height: 100px;
          width: 110px;
          margin: 10px;
          
@@ -200,7 +203,7 @@
    @media screen and (min-width: 768px) {
 
       .img1 {
-         position: absolute;
+         position: flex;
          top:20px;
          left: 20px;
          height: 80px;
@@ -209,7 +212,7 @@
       }
 
       .img2 {
-         position: absolute;
+         position: flex;
          bottom: 20px;
          right: 20px;
          height: 80px;
