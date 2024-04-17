@@ -75,7 +75,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 
 # Am I Responsive:
 
-<img src="assets\images\Am_I_responsive.png">
+<img src="assets\images\Responsive_2.png">
 
 <hr>
 
@@ -125,7 +125,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 * HTML-Validator: Used for validating HTML-code.
 * CSS-Validator: Utilizied for validating CSS-code.
 * Jshint: Applied for validating JavaScript-code and to see if there were any bugs or unused function.
-* Am I responsive: Employed for testing and ensuring responsiveness.
+* Multi mock-up generator : Employed for testing and ensuring responsiveness.
 
 <hr>
 
