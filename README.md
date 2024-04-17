@@ -130,8 +130,8 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 # Bugs
 | Bugs | Status| Description | Steps to Resolve |
 |--|--|--|--|
-| Fontawesome not display | Resolved | Fontawesome did not show up in high score-box | moved font-family CSS in to body-container in CSS |
-| High score overlap Question | Resolved | High Score overlap Question on small screens | 
+| Fontawesome not display | ~~Resolved~~ | Fontawesome did not show up in high score-box | moved font-family CSS in to body-container in CSS |
+| High score overlap Question | ~~Resolved~~ | High Score overlap Question on small screens | Added media Queries for High score, and changed fontsize on Questions |
 
 <hr>
 
