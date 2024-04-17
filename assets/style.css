@@ -32,6 +32,7 @@
        border: 5px solid #191970;
        padding: 10px;
        margin: 10px;
+       display: flex;
    
    }
    /* transition to question*/
@@ -159,94 +160,106 @@
 
    
 
-   /* media queries for phones*/
-   @media screen and (min-width: 280px) {
-
-      .img1 {
-         position: absolute;
-         top:50px;
-         left: 10px;
-         height: 60px;
-         width: 60px;
-         margin: 10px;
-      }
-
-      .img2 {
-         position: absolute;
-         bottom: 80px;
-         right: 10px;
-         height: 60px;
-         width: 60px;
-         margin: 10px;
-      }
-
-      .container {
-         max-width: 70%;
-      }
-      #high-score-container {
-
-         position: absolute;
-         top: 5px;
-         right: 100px;
-         height: 110px;
-         width: 110px;
-         margin: 10px;
-         
-      }
-
-      #question {
-         font-size: 20px;
-         
-      }
+   /* Media queries för mobila enheter (minst 280px) */
+@media screen and (min-width: 280px) {
+   .img1 {
+       position: absolute;
+       top: 50px;
+       left: 10px;
+       height: 60px;
+       width: 60px;
+       margin: 10px;
    }
-   /* media queries for tablets*/
-   @media screen and (min-width: 768px) {
 
-      .img1 {
-         position: flex;
-         top:46%;
-         left:40px;
-         height: 80px;
-         width: 80px;
-         margin: 10px;
-      }
+   .img2 {
+       position: absolute;
+       top: 50px;
+       right: 10px;
+       height: 60px;
+       width: 60px;
+       margin: 10px;
+   }
 
-      .img2 {
-         position: flex;
-         bottom: 46%;
-         right: 40px;
-         height: 80px;
-         width: 80px;
-         margin: 10px;
-      }
+   .container {
+       max-width: 50%;
+   }
 
-      .container {
-         max-width: 100%;
-      }
+   #question-container{
+       
       
    }
-   @media screen and (min-width: 1460px) {
-
-      .img1 {
-         position: absolute;
-         top:200px;
-         left: 130px;
-         height: 150px;
-         width: 150px;
-         margin: 10px;
-      
-      }
-
-      .img2 {
-         position: absolute;
-         bottom: 20px;
-         right: 20px;
-         height: 150px;
-         width: 150px;
-         margin: 10px;
-      }
-
-      .container {
-         max-width: 100%;
-      }
+   #high-score-container {
+       position: absolute;
+       top: 10px;
+       right: 80px;
+       height: 110px;
+       width: 110px;
+       margin: 10px;
    }
+
+   #question {
+       font-size: 20px;
+   }
+   
+}
+
+/* Media queries för surfplattor (minst 768px) */
+@media screen and (min-width: 768px) {
+   .img1 {
+       position: flex;
+       top: 210px;
+       left: 100px;
+       height: 150px;
+       width: 150px;
+       margin: 10px;
+   }
+
+   .img2 {
+       position: flex;
+       top: 210px;
+       right: 100px;
+       height: 150px;
+       width: 150px;
+       margin: 10px;
+   }
+
+   .container {
+       max-width: 100%;
+   }
+
+   #question {
+       font-size: 25px;
+   }
+   #question-container {
+      position: flex;
+   }
+}
+
+/* Media queries för stora skärmar (minst 1460px) */
+@media screen and (min-width: 1460px) {
+   .img1 {
+       position: absolute;
+       top: 51%;
+       left: 130px;
+       height: 150px;
+       width: 150px;
+       margin: 10px;
+   }
+
+   .img2 {
+       position: absolute;
+       bottom: 51%;
+       right: 20px;
+       height: 150px;
+       width: 150px;
+       margin: 10px;
+   }
+
+   .container {
+       max-width: 100%;
+   }
+
+   #question {
+      font-size: 35px;
+   }
+}
