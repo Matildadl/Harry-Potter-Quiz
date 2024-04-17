@@ -8,7 +8,6 @@ const resultElement = document.getElementById('result');
 const summaryElement = document.getElementById('summary');
 const highScoreElement = document.getElementById('high-score');
 
-
 let shuffledQuestions, currentQuestionIndex, correctAnswers, totalQuestions;
 let highScore = localStorage.getItem('highScore') || 0;
 let gamesPlayed = parseInt(localStorage.getItem('gamesPlayed')) || 0;
@@ -110,6 +109,7 @@ function showResults() {
     endQuiz(); 
     displayHighScore(); 
 }
+
 function updateSummary() {
     summaryElement.innerText = `Number of correct answers: ${correctAnswers} / ${totalQuestions}`;
     resultElement.classList.remove('hide');
@@ -124,6 +124,7 @@ function hideHighScoreContainer() {
     const highScoreContainer = document.getElementById('high-score-container');
     highScoreContainer.classList.add('hide');
 }
+
 function updateHighScore(score) {
     const currentHighScore = parseInt(localStorage.getItem('highScore'), 10) || 0;
     if (score > currentHighScore) {
@@ -139,12 +140,17 @@ function displayHighScore() {
     showHighScoreContainer(); 
 }
 
-
 function endQuiz() {
     const score = calculateScore(); 
     updateHighScore(score);
     displayHighScore();
-   
 }
 
+// Funktionen för att beräkna poängen
+function calculateScore() {
+    // Returnera antalet korrekta svar
+    return correctAnswers;
+}
+
+// Anropa displayHighScore() när sidan laddas för att visa high-score från början
 displayHighScore();
