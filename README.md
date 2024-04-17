@@ -103,8 +103,18 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 ## Validators:
 
 ### CSS:
+
+<img src="assets\images\jigsaw_css.png">
+
 ### HTML:
+
+<img src="assets\images\w3validator_html.png">
+
 ### JavaScript:
+
+* Here I got a warning about a function not being used, even though it is being used.
+
+<img src="assets\images\jshint.png">
 
 ## Lighthouse:
 

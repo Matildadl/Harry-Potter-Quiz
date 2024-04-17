@@ -6,7 +6,7 @@ const answerButtonsElement = document.getElementById('answer-buttons');
 const resultButton = document.querySelector('.result-button');
 const resultElement = document.getElementById('result');
 const summaryElement = document.getElementById('summary');
-const highScoreElement = document.getElementById('high-score');
+
 
 let shuffledQuestions, currentQuestionIndex, correctAnswers, totalQuestions;
 let highScore = localStorage.getItem('highScore') || 0;
@@ -120,10 +120,6 @@ function showHighScoreContainer() {
     highScoreContainer.classList.remove('hide');
 }
 
-function hideHighScoreContainer() {
-    const highScoreContainer = document.getElementById('high-score-container');
-    highScoreContainer.classList.add('hide');
-}
 
 function updateHighScore(score) {
     const currentHighScore = parseInt(localStorage.getItem('highScore'), 10) || 0;
@@ -138,6 +134,7 @@ function displayHighScore() {
     const highScore = localStorage.getItem('highScore');
     document.getElementById('high-score').innerText = `High Score: ${highScore}`;
     showHighScoreContainer(); 
+    console.log(highScore);
 }
 
 function endQuiz() {
@@ -146,7 +143,7 @@ function endQuiz() {
     displayHighScore();
 }
 
-// Funktionen för att beräkna poängen
+
 function calculateScore() {
     // Returnera antalet korrekta svar
     return correctAnswers;
