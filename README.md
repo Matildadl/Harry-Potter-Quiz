@@ -130,7 +130,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 
 ## Lighthouse:
 
-<img src="assets\images\lighthouse.png">
+<img src="assets\images\lighthouse_new.png">
 
 <hr>
 
