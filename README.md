@@ -1,3 +1,30 @@
+# Table of Contents
+1. [Am I Responsive](#am-i-responsive)
+2. [Harry Potter Quiz](#harry-potter-quiz)
+3. [About the Quiz](#about-the-quiz)
+4. [How to Play](#how-to-play)
+5. [UX](#ux)
+6. [My Friends experience](#my-friends-experience)
+7. [Features](#features)
+8. [Future Features](#future-features)
+9. [Getting Started](#getting-started)
+10. [Contributing](#contributing)
+11. [Wireframes](#wireframes)
+    - [Full Screen](#full-screen)
+    - [Mobile Screen](#mobile-screen)
+12. [Layout](#layout)
+13. [Tests](#tests)
+    - [Manual](#manual)
+    - [Validators](#validators)
+        - [CSS](#css)
+        - [HTML](#html)
+        - [JavaScript](#javascript)
+        - [Lighthouse](#lighthouse)
+14. [Tools and Language](#tools-and-language)
+15. [Bugs](#bugs)
+16. [Links to images and inspiration](#links-to-images-and-inspiration)
+17. [Credits](#credits)
+18. [Thank you](#thank-you)
 
 # Am I Responsive:
 
@@ -61,7 +88,7 @@ Engaging and immersive experience for Harry Potter fans of all levels.
 
 # Getting Started
 Press the Start-Button and play!
-[ The Quiz](https://matildadl.github.io/Harry-Potter-Quiz/)
+[The Quiz](https://matildadl.github.io/Harry-Potter-Quiz/)
 
 <hr>
 
@@ -96,7 +123,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 <img src="assets\images\second_page.png">
 <img src="assets\images\second_right_and_wrong.png">
 <img src="assets\images\last_page_result.png">
-<img src="assets\images\end_restart.png>
+<img src="assets\images\end_restart.png">
 
 <hr>
 
@@ -112,6 +139,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 | Next-button | Go to next question | Click on Next-button | Next question comes directly |
 | Result-Button | Result | Click on Result-button | Your Result will then appear |
 | Restart-button | Restart the game | Click on Restart-button | The game will start again |
+
 ## Validators:
 
 ### CSS:

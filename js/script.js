@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Hämta referenser till alla element vi behöver använda
+    // Get references to all the elements we need to use
     const elements = {
       startButton: document.getElementById("start-btn"),
       nextButton: document.getElementById("next-btn"),
@@ -11,14 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
       summaryElement: document.getElementById("summary"),
     };
   
-    // Variabler för frågespel
+    // Quiz variables
     let shuffledQuestions, currentQuestionIndex, correctAnswers, totalQuestions;
   
-    // Variabler för high score och antal spelade spel
+    // Variables for high score and number of games played
     let highScore = localStorage.getItem("highScore") || 0;
     let gamesPlayed = parseInt(localStorage.getItem("gamesPlayed")) || 0;
   
-    // Lägg till händelselyssnare för knappar och modalen
+    // Add event listeners for buttons and the modal
     elements.startButton.addEventListener("click", startGame);
     elements.nextButton.addEventListener("click", () => {
       currentQuestionIndex++;
@@ -26,40 +26,40 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     elements.resultButton.addEventListener("click", showResults);
   
-    // Funktion för att starta spelet
+    // Function to start the game
     function startGame() {
       const gamesPlayedElement = document.getElementById("games-played");
       gamesPlayedElement.innerText = gamesPlayed;
       gamesPlayed++;
       localStorage.setItem("gamesPlayed", gamesPlayed);
   
-      // Dölj startknappen och resultatkknappen
+      // Hide the start button and result button
       elements.startButton.classList.add("hide");
       elements.resultButton.classList.add("hide");
   
-      // Blanda frågorna och återställ index och antal korrekta svar
+      // Shuffle the questions and restore index and number of correct answers
       shuffledQuestions = questions.sort(() => Math.random() - 0.5);
       currentQuestionIndex = 0;
       correctAnswers = 0;
       totalQuestions = questions.length;
   
-      // Visa frågecontainer och rensa tidigare resultat
+      // Show query container and clear previous results
       elements.questionContainerElement.classList.remove("hide");
       elements.resultElement.innerText = "";
       elements.summaryElement.innerText = "";
   
-      // Återställ frågestatus och visa nästa fråga
+      // Reset question status and show next question
       resetState();
       setNextQuestion();
     }
   
-    // Funktion för att visa nästa fråga
+    // Function to display the next question
     function setNextQuestion() {
       resetState();
       showQuestionWithTransition(shuffledQuestions[currentQuestionIndex]);
     }
   
-    // Funktion för att visa fråga med övergångseffekt
+    // Feature to show question with transition effect
     function showQuestionWithTransition(question) {
       const questionContainer = document.getElementById("question-container");
       questionContainer.style.opacity = "0";
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 300);
     }
   
-    // Funktion för att återställa spelstatus
+    // Function to restore game state
     function resetState() {
       clearStatusClass(document.body);
       elements.nextButton.classList.add("hide");
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   
-    // Funktion för att hantera svarsklick
+    // Function to manage reply clicks
     function selectAnswer(e) {
       const selectedButton = e.target;
       const correct = selectedButton.dataset.correct;
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
       updateSummary();
     }
   
-    // Funktion för att ange klass för svarstatus
+    // Function to specify response status class
     function setStatusClass(element, correct) {
       clearStatusClass(element);
       if (correct) {
@@ -119,13 +119,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   
-    // Funktion för att ta bort klass för svarstatus
+    // Function to remove response status class
     function clearStatusClass(element) {
       element.classList.remove("correct");
       element.classList.remove("wrong");
     }
   
-    // Funktion för att visa resultat efter att alla frågor har besvarats
+    // Feature to display results after all questions are answered
     function showResults() {
       elements.startButton.innerText = "Restart";
       elements.startButton.classList.remove("hide");
@@ -136,19 +136,19 @@ document.addEventListener("DOMContentLoaded", function () {
       displayHighScore();
     }
   
-    // Funktion för att uppdatera summeringsinformationen
+    // Function to update the summary information
     function updateSummary() {
       elements.summaryElement.innerText = `Number of correct answers: ${correctAnswers} / ${totalQuestions}`;
       elements.resultElement.classList.remove("hide");
     }
   
-    // Funktion för att visa behållaren för high score
+    // Function to display the high score container
     function showHighScoreContainer() {
       const highScoreContainer = document.getElementById("high-score-container");
       highScoreContainer.classList.remove("hide");
     }
   
-    // Funktion för att uppdatera high score
+    // Function to update high score
     function updateHighScore(score) {
       const currentHighScore =
         parseInt(localStorage.getItem("highScore"), 10) || 0;
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   
-    // Funktion för att visa high score
+    // Function to show high score
     function displayHighScore() {
       const highScore = localStorage.getItem("highScore");
       document.getElementById(
@@ -167,18 +167,18 @@ document.addEventListener("DOMContentLoaded", function () {
       showHighScoreContainer();
       }
   
-    // Funktion för att avsluta frågespelet
+    // Function to end the quiz
     function endQuiz() {
       const score = calculateScore();
       updateHighScore(score);
       displayHighScore();
     }
   
-    // Funktion för att beräkna poängen
+    // Function to calculate the score
     function calculateScore() {
       return correctAnswers;
     }
   
-    // Anropa displayHighScore() när sidan laddas för att visa high score från början
+    // Call displayHighScore() when the page loads to display the high score from the start
     displayHighScore();
   });
