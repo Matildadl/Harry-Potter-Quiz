@@ -146,7 +146,6 @@ body {
 
 /* Media queries för stora skärmar (minst 1460px) */
 @media screen and (min-width: 1460px) {
-
    .main {
       flex-direction: row;
     }
@@ -161,16 +160,17 @@ body {
       height: 50vh;
     }
   
-    
-  
-   #question {
-    font-size: 35px;
+    .answer-btn {
+      width: 20vw;
+      height: 20vh;
+     }
+   .btn{
+      width: 15vw;
+      height: 15vh;
+      margin-left: 4rem;
+      
    }
-  
-   .btn-grid {
-   width: 18rem;
-   height: 18rem;
-   margin-left: 15rem;
-   
-  }
+   #question{
+      font-size: 40px;
+   }
 }
