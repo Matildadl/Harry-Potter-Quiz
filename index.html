@@ -17,26 +17,26 @@
     <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 <body>
-    <div class="img">
-        <div id="img1">
-        <img src="assets/images/harry_potter_studenthomes.webp" alt="house-crest" class="img1">
-        </div>
+    <main class="main">
+    <div id="high-score-container" >
+        <p id="high-score">High Score: 0</p>
+        <p>Number of times played: <span id="games-played">0</span></p>
+        <p id="result" class="hide"></p>
+        <p id="summary" class="hide"></p>
     </div>
-    <div class="img">
-        <div id="img2">
-        <img src="assets/images/harry_potter_studenthomes.webp" alt="house-crest" class="img2">
-        </div>
+    <div class="img-container">
+        <img src="assets/images/harry_potter_studenthomes.webp" alt="house-crest" class="img-banner">
     </div>
     <div class="container">
         
-       <div id="question-container" class="hide">
+        <div id="question-container" class="hide">
             <div id="question">Question</div>
             <hr>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <button class="btn answer-btn">Answer 1</button>
+                <button class="btn answer-btn">Answer 2</button>
+                <button class="btn answer-btn">Answer 3</button>
+                <button class="btn answer-btn">Answer 4</button>
             </div>
         </div>
         <div class="controls">
@@ -44,16 +44,13 @@
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
         <button onclick="showResults()" class="result-button hide">Results</button>
-        <div id="result" class="hide"></div>
-        <div id="summary" class="hide"></div>
-        
-        <div id="high-score-container" >
-            <h2 id="HS">High Score <i class="fa-solid fa-heart"></i></h2>
-            <p id="high-score">High Score: 0</p>
-            <p>Number of times played: <span id="games-played">0</span></p>
-        </div>
         
     </div>
+    <div class="img-container">
+        <img src="assets/images/harry_potter_studenthomes.webp" alt="house-crest" class="img-banner">
+        
+    </div>
+</main>
     
 <footer> 
     
