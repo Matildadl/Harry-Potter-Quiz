@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <!--meta-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Harry Potter. Wizard. England. Hogwartz. Voldemort">
@@ -10,13 +11,14 @@
     <script defer src="js/script.js"></script>
     <script src="js/question.js"></script>
     <title>Harry Potter-quiz</title>
-    
+    <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/avicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 <body>
+    <!--main-->
     <main class="main">
     <div id="high-score-container" >
         <p id="high-score">High Score: 0</p>
@@ -24,14 +26,16 @@
         <p id="result" class="hide"></p>
         <p id="summary" class="hide"></p>
     </div>
+    <!--img-->
     <div class="img-container">
         <img src="assets/images/harry_potter_studenthomes.webp" alt="house-crest" class="img-banner">
     </div>
     <div class="container">
-        
+        <!--question-->
         <div id="question-container" class="hide">
             <div id="question">Question</div>
             <hr>
+            <!--buttons-->
             <div id="answer-buttons" class="btn-grid">
                 <button class="btn answer-btn">Answer 1</button>
                 <button class="btn answer-btn">Answer 2</button>
@@ -43,18 +47,17 @@
             <button id="start-btn" class="start-btn btn">Start</button>
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
+        <!--results-->
         <button onclick="showResults()" class="result-button hide">Results</button>
         
     </div>
+    <!--img-->
     <div class="img-container">
         <img src="assets/images/harry_potter_studenthomes.webp" alt="house-crest" class="img-banner">
         
     </div>
 </main>
     
-<footer> 
-    
-</footer>
 
 </body>
 </html>
