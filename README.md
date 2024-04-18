@@ -1,3 +1,11 @@
+
+
+# Am I Responsive:
+
+<img src="assets\images\Am_I_responsive2.png">
+
+<hr>
+
 # Table of Contents
 1. [Am I Responsive](#am-i-responsive)
 2. [Harry Potter Quiz](#harry-potter-quiz)
@@ -26,12 +34,7 @@
 17. [Credits](#credits)
 18. [Thank you](#thank-you)
 
-# Am I Responsive:
-
-<img src="assets\images\Am_I_responsive2.png">
-
 <hr>
-
 
 # Harry Potter Quiz
 
