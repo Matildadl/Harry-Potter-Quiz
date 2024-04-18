@@ -129,14 +129,21 @@ body {
   }
 
   .img-banner {
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
   }
 
   #question-container {
     width: 50vw;
     height: 50vh;
-  }
+    font-size: 2rem;
+    align-items: center;
+    }
+    
+    .btn {
+      font-size: 30px;
+    }
+  
 
   .answer-btn {
     width: 20vw;
@@ -151,26 +158,19 @@ body {
     }
   
     .img-banner {
-      width: 15rem;
-      height: 15rem;
+      width: 16rem;
+      height: 16rem;
     }
   
     #question-container {
       width: 50vw;
-      height: 50vh;
+      height: 40vh;
+      font-size: 4rem;
+      align-items: center;
     }
-  
-    .answer-btn {
-      width: 20vw;
-      height: 20vh;
-     }
-   .btn{
-      width: 15vw;
-      height: 15vh;
-      margin-left: 4rem;
-      
-   }
-   #question{
+    
+    .btn {
       font-size: 40px;
-   }
+    }
+   
 }
