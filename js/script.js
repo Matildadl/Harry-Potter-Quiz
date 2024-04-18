@@ -165,8 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "high-score"
       ).innerText = `High Score: ${highScore}`;
       showHighScoreContainer();
-      console.log(highScore);
-    }
+      }
   
     // Funktion för att avsluta frågespelet
     function endQuiz() {
