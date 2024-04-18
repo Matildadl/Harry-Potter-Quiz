@@ -1,7 +1,7 @@
 
 # Am I Responsive:
 
-<img src="assets\images\Responsive_2.png">
+<img src="assets\images\Am_I_responsive2.png">
 
 <hr>
 
@@ -92,10 +92,11 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 
 # Layout:
 
-<img src="assets\images\start_page.png">
-<img src="assets\images\question_area.png">
-<img src="assets\images\right_wrong_answer.png">
-<img src="assets\images\high_score_result.png">
+<img src="assets\images\first_page.png">
+<img src="assets\images\second_page.png">
+<img src="assets\images\second_right_and_wrong.png">
+<img src="assets\images\last_page_result.png">
+<img src="assets\images\end_restart.png>
 
 <hr>
 
@@ -129,7 +130,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 
 ## Lighthouse:
 
-<img src="assets\images\lighthouse_new.png">
+<img src="assets\images\lighthouse.png">
 
 <hr>
 
