@@ -29,10 +29,11 @@
         - [JavaScript](#javascript)
         - [Lighthouse](#lighthouse)
 14. [Tools and Language](#tools-and-language)
-15. [Bugs](#bugs)
-16. [Links to images and inspiration](#links-to-images-and-inspiration)
-17. [Credits](#credits)
-18. [Thank you](#thank-you)
+15. [Deployment](#deployment)
+16. [Bugs](#bugs)
+17. [Links to images and inspiration](#links-to-images-and-inspiration)
+18. [Credits](#credits)
+19. [Thank you](#thank-you)
 
 <hr>
 
@@ -188,6 +189,23 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 |--|--|--|--|
 | Fontawesome not display | ~~Resolved~~ | Fontawesome did not show up in high score-box | moved font-family CSS in to body-container in CSS |
 | High score overlap Question | ~~Resolved~~ | High Score overlap Question on small screens | Added media Queries for High score, and changed fontsize on Questions |
+
+<hr>
+
+# Depolyment
+
+### Deployment To Github
+* Once code has been completed, it is pushed to Github for deployment using the pages feature. 
+### Steps needed to deploy:
+
+* Navigate to the repository on github and click settings.
+* Then select pages on the side navigation.
+* Select the none dropdown, and then click main.
+* Click on the save button.
+* If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+
+### Local Deployment
+*Since I'm using VsCode my code is available locally
 
 <hr>
 
