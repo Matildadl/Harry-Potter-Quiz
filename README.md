@@ -205,7 +205,7 @@ I asked a couple of people for their opinion for my quiz, before it was ready to
 * If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 ### Local Deployment
-*Since I'm using VsCode my code is available locally
+* Since I'm using VsCode my code is available locally
 
 <hr>
 
